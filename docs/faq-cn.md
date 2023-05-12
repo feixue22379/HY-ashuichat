@@ -30,7 +30,7 @@ Docker 版本相当于稳定版，latest Docker 总是与 latest release version
 2. 部署项目时，设置环境变量CODE（支持多个密码逗号分隔）。设置访问密码后，用户需要在设置界面输入访问密码才可以使用。参见[相关说明]([https://github.com/feixue/ChatGPT-Next-Web/blob/main/README_CN.md#%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2%E8%AE%BF%E9%97%AE%E5%AF%86%E7%A0%81](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
 
 ## 为什么我部署的版本没有流式响应
-> 相关讨论：[#386]([[https://github.com/Yidadaa/ChatGPT-Next-Web/issues/386](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+> 相关讨论：[#386]([[https://github.com/feixue/ChatGPT-Next-Web/issues/386](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
 
 如果你使用 ngnix 反向代理，需要在配置文件中增加下列代码：
 ```
