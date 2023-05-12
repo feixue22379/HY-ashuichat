@@ -32,12 +32,7 @@ export const getServerSideConfig = () => {
       "[Server Config] you are importing a nodejs-only module outside of nodejs",
     );
   }
-  
-const apiKeys = (process.env.OPEN_AI_KEY ?? '').split(',')
-const apiKey =apiKeys.at(Math.floor(Math.random() * apiKeys.length)) ?? ''
-  
-  return {
-    apiKey,
+
   return {
     apiKey: process.env.OPENAI_API_KEY,
     code: process.env.CODE,
@@ -46,6 +41,5 @@ const apiKey =apiKeys.at(Math.floor(Math.random() * apiKeys.length)) ?? ''
     proxyUrl: process.env.PROXY_URL,
     isVercel: !!process.env.VERCEL,
     hideUserApiKey: !!process.env.HIDE_USER_API_KEY,
-    enableGPT4: !process.env.DISABLE_GPT4,
   };
 };
