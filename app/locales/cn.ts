@@ -170,7 +170,15 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "
+# 欢迎使用 Markdown在线编辑器 MdEditor
+
+**Markdown是一种轻量语言」**
+
+![markdown](https://www.mdeditor.cn/images/logos/markdown.png "markdown")
+
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”
+",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
