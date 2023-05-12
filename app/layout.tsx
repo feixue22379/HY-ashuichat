@@ -7,10 +7,10 @@ import { getBuildConfig } from "./config/build";
 const buildConfig = getBuildConfig();
 
 export const metadata = {
-  title: "飞雪 AI GPT",
-  description: "飞雪 AI GPT",
+  title: "阿水 AI",
+  description: "阿水 AI",
   appleWebApp: {
-    title: "飞雪 AI GPT",
+    title: "阿水 AI",
     statusBarStyle: "default",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
