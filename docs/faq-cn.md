@@ -138,10 +138,10 @@ OpenAI只接受指定地区的信用卡（中国信用卡无法使用）。一�
 - 开通 ChatGPT Plus 不代表有 GPT-4 权限，两者毫无关系。
 
 ## 如何使用 Azure OpenAI 接口
-请参考：[#371]([[https://github.com/Yidadaa/ChatGPT-Next-Web/issues/371](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+请参考：[#371]([[https://github.com/feixue/ChatGPT-Next-Web/issues/371](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
 
 ## 为什么我的 Token 消耗得这么快？
-> 相关讨论：[#518]([[https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+> 相关讨论：[#518]([[https://github.com/feixue/ChatGPT-Next-Web/issues/518](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
 - 如果你有 GPT 4 的权限，并且日常在使用 GPT 4 api，那么由于 GPT 4 价格是 GPT 3.5 的 15 倍左右，你的账单金额会急速膨胀；
 - 如果你在使用 GPT 3.5，并且使用频率并不高，仍然发现自己的账单金额在飞快增加，那么请马上按照以下步骤排查：
   - 去 openai 官网查看你的 api key 消费记录，如果你的 token 每小时都有消费，并且每次都消耗了上万 token，那你的 key 一定是泄露了，请立即删除重新生成。**不要在乱七八糟的网站上查余额。**
