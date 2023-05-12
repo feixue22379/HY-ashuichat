@@ -25,10 +25,10 @@ The Docker version is equivalent to the stable version, and the latest Docker is
 ## What is the environment variable CODE? Is it necessary to set it?
 This is your custom access password, you can choose:
 1. Do not set it, delete the environment variable. Be cautious: anyone can access your project at this time.
-2. When deploying the project, set the environment variable CODE (supports multiple passwords, separated by commas). After setting the access password, users need to enter the access password in the settings page to use it. See [related instructions]([https://github.com/Yidadaa/ChatGPT-Next-Web#access-password](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+2. When deploying the project, set the environment variable CODE (supports multiple passwords, separated by commas). After setting the access password, users need to enter the access password in the settings page to use it. See [related instructions](https://github.com/feixue/ChatGPT-Next-Web/issues/386)
 
 ## Why doesn't the version I deployed have streaming response
-> Related discussion: [#386]([https://github.com/Yidadaa/ChatGPT-Next-Web/issues/386](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+> Related discussion: [#386](https://github.com/feixue/ChatGPT-Next-Web/issues/386)
 
 If you use nginx reverse proxy, you need to add the following code to the configuration file:
 ```
