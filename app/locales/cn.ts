@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      '![图片](/QRcode.jpg) \n 请关注微信公众号: **[科技阿水](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)** 发送关键词：**密码**免费获取密码！ 然后点击左下角设置按钮输入密码后解锁免费使用。',
+      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: '![图片](/QRcode.jpg) \n 前往公众号: **[科技阿水](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)** 回复**code**免费获取密码，然后点击左下角设置按钮输入密码后解锁免费使用。',
+    BotHello: "出你好，我是GPT3.5-Turbo，有什么可以帮你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
