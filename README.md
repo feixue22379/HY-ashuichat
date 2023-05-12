@@ -1,25 +1,4 @@
-<div align="center">
-<img src="./docs/images/icon.svg" alt="icon"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
-
-English / [简体中文](./README_CN.md)
-
-One-Click to deploy well-designed ChatGPT web UI on Vercel.
-
-一键免费部署你的私人 ChatGPT 网页应用。
-
-[Demo](https://chatgpt.nextweb.fun/) / [Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [Join Discord](https://discord.gg/zrhvHCr79N) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
-
-[演示](https://chatgpt.nextweb.fun/) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://user-images.githubusercontent.com/16968934/236402186-fa76e930-64f5-47ae-b967-b0f04b1fbf56.jpg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
-
-![cover](./docs/images/cover.png)
-
-</div>
 
 ## Features
 
@@ -82,17 +61,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 
 ## 最新动态
 
-- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
-
 ## Get Started
-
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
-
-1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
-2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web), remember that `CODE` is your page password;
-3. Enjoy :)
 
 ## FAQ
 
@@ -237,13 +206,10 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ## Donation
 
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
-
 ## Special Thanks
 
 ### Sponsor
 
-> 仅列出捐赠金额 >= 100RMB 的用户。
 
 [@mushan0x0](https://github.com/mushan0x0)
 [@ClarenceDan](https://github.com/ClarenceDan)
@@ -266,10 +232,4 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 [@Sha1rholder](https://github.com/Sha1rholder)
 [@AnsonHyq](https://github.com/AnsonHyq)
 
-### Contributor
-
-[Contributors](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
-
 ## LICENSE
-
-[Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)
