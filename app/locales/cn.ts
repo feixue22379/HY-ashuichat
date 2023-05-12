@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      '![图片](/QRcode.jpg) \n 请关注微信公众号: **[科技阿水](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)** 发送关键词：**密码**免费获取密码！      然后点击左下角设置按钮输入密码后解锁免费使用。',
+      '![图片](/QRcode.jpg) \n 请关注微信公众号: **[科技阿水](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect)** 发送关键词：**密码**免费获取密码！ 然后点击左下角设置按钮输入密码后解锁免费使用。',
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
