@@ -123,10 +123,10 @@ OpenAI only accepts credit cards from designated regions (Chinese credit cards c
 Wait for email updates afterwards.
 
 ## How to use the Azure OpenAI interface
-Please refer to: [#371]([https://github.com/Yidadaa/ChatGPT-Next-Web/issues/371](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+Please refer to: [#371](https://github.com/feixue/ChatGPT-Next-Web/issues/371)
 
 ## Why is my Token consumed so fast?
-> Related discussion: [#518]([https://github.com/Yidadaa/ChatGPT-Next-Web/issues/518](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzOTIwMjkyMg==&scene=124#wechat_redirect))
+> Related discussion: [#518](https://github.com/feixue/ChatGPT-Next-Web/issues/518)
 - If you have GPT-4 access and use GPT-4 API regularly, your bill will increase rapidly since GPT-4 pricing is about 15 times higher than GPT-3.5;
 - If you are using GPT-3.5 and not using it frequently, but still find your bill increasing fast, please troubleshoot immediately using these steps:
   - Check your API key consumption record on the OpenAI website; if your token is consumed every hour and each time consumes tens of thousands of tokens, your key must have been leaked. Please delete it and regenerate it immediately. **Do not check your balance on random websites.**
