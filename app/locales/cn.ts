@@ -151,7 +151,7 @@ const cn = {
     },
     AccessCode: {
       Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
+      SubTitle: "关注微信公众号【科技阿水】，在公众号内发送关键词【访问码】，即可获取最新访问码",
       Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
